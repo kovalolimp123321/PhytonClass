@@ -1,0 +1,9 @@
+c=int(input())
+n1=c%10
+n2=int(c/10%10)
+n3=int(c/100%10)
+n4=int(c/1000%10)
+n5=int(c/10000%10)
+a=n2**n1
+d=a*n3/(n5-n4)
+print(d)
